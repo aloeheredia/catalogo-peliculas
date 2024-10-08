@@ -1,0 +1,54 @@
+.catalogo-actor-container {
+  display: flex;
+  align-content: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.catalogo-actor-imagen {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 4px;
+}
+
+.catalogo-actor-texto {
+  height: 32px;
+}
+
+#vista_previa {
+  width: 200px;
+  height: 115px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-editar {
+    color: white;
+    background-color: #4da6ff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+.btn-eliminar {
+    color: white;
+    background-color: #ff6666;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+.btn-editar:hover {
+    background-color: #3399ff;
+  }
+
+.btn-eliminar:hover {
+    background-color: #ff4d4d;
+  }
